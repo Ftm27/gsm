@@ -2,11 +2,25 @@
   font-family: "Shabnam-FD";
   src: url("../fonts/Shabnam-FD.woff2");
 }
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 body {
   font-family: "Shabnam-FD";
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 1000px;
+  margin: auto auto;
+  justify-content: center;
+  gap: 20px;
+}
+
 header {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +40,7 @@ header {
 .input {
   width: 600px;
   padding: 8px;
-  background-color: oklab(90.498% -0.00293 -0.02513);
+  background-color: #dde5f3;
   border: none;
   border-radius: 8px;
 }
@@ -107,7 +121,7 @@ header {
   text-align: center;
 }
 
-.brand-item img{
+.brand-item img {
   width: 50px;
   object-fit: contain;
   height: 50px;
@@ -115,12 +129,210 @@ header {
 .services {
   display: flex;
   justify-content: center;
-  margin: 30px auto;
-  gap: 30px;
+  gap: 50px;
 }
-.service {
+.service-item {
   display: flex;
-
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: rgb(94, 90, 90);
+  font-size: 10px;
+}
+.service-item img {
   width: 50px;
   height: 50px;
+}
+.title1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Popular {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 7%;
+  justify-content: space-between;
+}
+.Popular div {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.Popular img {
+  background-color: rgb(238, 238, 240);
+  padding: 5px;
+}
+.title2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accessories {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 7%;
+  justify-content: space-between;
+}
+.accessories div {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 200;
+}
+.accessories img {
+  width: 100%;
+  background-color: rgb(238, 238, 240);
+  padding: 5px;
+}
+.title3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newest {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 7%;
+  justify-content: space-between;
+}
+.newest div {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 200;
+}
+.newest img {
+  width: 100%;
+  background-color: rgb(238, 238, 240);
+  padding: 5px;
+}
+
+.news {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3%;
+  justify-content: space-between;
+}
+.news div {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 200;
+}
+.title4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.col img {
+  width: 100%;
+  height: 140px;
+  border-radius: 12px;
+}
+.col.big img {
+  height: 300px;
+}
+.col2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: small;
+}
+footer {
+  background-color: #0f1b36;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  flex: 1;
+  margin-top: 50px;
+}
+.GSM-Logo {
+  width: 200px;
+  height: 100px;
+}
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  min-width: 250px;
+  color: #fff;
+}
+.footer-center ul {
+  list-style: none;
+  line-height: 2;
+  color: #fff;
+}
+.footer-center a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-left {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+}
+.footer-left h4 {
+  color: rgb(183, 178, 178);
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  mix-blend-mode: screen;
+  filter: invert(1);
+}
+.certificates {
+  display: flex;
+  flex-direction: row;
+}
+.certificates img {
+  width: 80px;
+  height: 80px;
 }
