@@ -55,6 +55,7 @@ header {
   margin-top: 25px;
   list-style: none;
   display: flex;
+  /* Mr Edit */"f
   gap: 30px;
   flex-wrap: wrap;
   justify-content: ce;
@@ -213,6 +214,7 @@ header {
   font-weight: 200;
 }
 .accessories img {
+  /* Mr Edit */
   background-color: rgb(238, 238, 240);
   padding: 5px;
 }
@@ -288,7 +290,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
+/* Mr Edit */
 .gsm-reviews {
   display: flex;
   flex-direction: column;
@@ -337,7 +339,9 @@ footer {
   flex: 1;
   margin-top: 50px;
 }
+
 .GSM-Logo img {
+  /* Mr Edit */
   max-width: 100%;
 }
 .footer-left,
@@ -384,6 +388,7 @@ footer {
   width: 80px;
   height: 80px;
 }
+/* Mr Edit */
 
 @media screen and (max-width: 767px) {
   .Popular,
