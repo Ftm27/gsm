@@ -143,6 +143,16 @@ header {
   width: 50px;
   height: 50px;
 }
+.popular-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  padding: 20px 15px;
+  gap: 10px;
+}
+
 .title1 {
   display: flex;
   justify-content: space-between;
@@ -154,10 +164,10 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 7%;
-  justify-content: space-between;
+  justify-content: center;
 }
 .Popular div {
-  width: 10%;
+  max-width: 10%;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -170,6 +180,15 @@ header {
   background-color: rgb(238, 238, 240);
   padding: 5px;
 }
+.accessories-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  padding: 20px 15px;
+  gap: 10px;
+}
 .title2 {
   display: flex;
   justify-content: space-between;
@@ -181,10 +200,10 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 7%;
-  justify-content: space-between;
+  justify-content: center;
 }
 .accessories div {
-  width: 10%;
+  max-width: 10%;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -196,6 +215,15 @@ header {
   width: 100%;
   background-color: rgb(238, 238, 240);
   padding: 5px;
+}
+.newest-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  padding: 20px 15px;
+  gap: 10px;
 }
 .title3 {
   display: flex;
@@ -224,7 +252,15 @@ header {
   background-color: rgb(238, 238, 240);
   padding: 5px;
 }
-
+.news-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  padding: 20px 15px;
+  gap: 10px;
+}
 .news {
   width: 100%;
   display: flex;
