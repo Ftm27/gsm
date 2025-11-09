@@ -10,13 +10,52 @@
     <section class="main">
       <section class="filters">
         <div class="filter-title">
-          <h2>فیلترها</h2>
-          <h2>حذف فیلترها</h2>
+          <h2>فیلتر ها</h2>
+          <h3>حذف فیلتر ها</h3>
         </div>
-        <div class="product-available">
+        <div class="filter-title">
           <h3>فقط کالا های موجود</h3>
           <input type="checkbox" />
         </div>
+        <details>
+          <summary>برند</summary>
+          <div class="content">
+            <p>
+              برند مورد نظرتان را جستجو کنید یا از فهرست پایین آن را انتخاب کنید
+            </p>
+            <input type="text" placeholder="جستجو در برند ها " />
+          </div>
+        </details>
+
+        <details open>
+          <summary>بازه قیمت</summary>
+          <div class="content">
+            <h3>شروع قیمت از</h3>
+            <input type="text" />
+            <h3>سقف قیمت تا</h3>
+            <input type="text" />
+          </div>
+        </details>
+
+        <details>
+          <summary>رنگ</summary>
+          <div class="content">
+            <div class="color">
+              <div>
+                <h3>رزگلد</h3>
+                <input type="checkbox" />
+              </div>
+              <div>
+                <h3>سبز</h3>
+                <input type="checkbox" />
+              </div>
+              <div>
+                <h3>مشکی</h3>
+                <input type="checkbox" />
+              </div>
+            </div>
+          </div>
+        </details>
       </section>
 
       <section class="products">
