@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.filters {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.filter-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.products {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  padding: 20px;
+}
+.product {
+  background: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  text-align: center;
+}
+.product-available {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+.filters {
+  width: 300px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  direction: rtl;
+}
+
+details {
+  border-bottom: 1px solid #ffffff;
+  padding: 15px 0;
+}
+
+summary {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+.color {
+  display: flex;
+  flex-direction: column;
+}
+.color div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+@media screen and (max-width: 767px) {
+  /* .products {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
