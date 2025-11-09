@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.filters {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.products {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px;
+}
+.product {
+  background: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  text-align: center;
+}
+.filter-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+.product-available {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
